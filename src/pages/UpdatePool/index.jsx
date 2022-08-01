@@ -46,18 +46,18 @@ export const UpdatePool = () => {
     pool.id
   );
 
-  const randomizePoolMatches = () => {
-    const newPoolMatch = GSsPoolMatches.find(
-      (poolMatch) =>
-        (poolMatch.isPredicted === false) &
-        (poolMatch.match.groupStage !== null)
-    );
-    if (newPoolMatch) {
-      newPoolMatch.goalsLocal = Math.floor(Math.random() * 11);
-      newPoolMatch.goalsVisit = Math.floor(Math.random() * 11);
-      updateGSPoolMatch(newPoolMatch);
-    }
-  };
+  // const randomizePoolMatches = () => {
+  //   const newPoolMatch = GSsPoolMatches.find(
+  //     (poolMatch) =>
+  //       (poolMatch.isPredicted === false) &
+  //       (poolMatch.match.groupStage !== null)
+  //   );
+  //   if (newPoolMatch) {
+  //     newPoolMatch.goalsLocal = Math.floor(Math.random() * 11);
+  //     newPoolMatch.goalsVisit = Math.floor(Math.random() * 11);
+  //     updateGSPoolMatch(newPoolMatch);
+  //   }
+  // };
 
   const handleUpdatePMatches = (PMatchesList, setUpdating) => {
     putPMatchesList(pool, jwt, PMatchesList)
@@ -91,9 +91,9 @@ export const UpdatePool = () => {
             />
             {!finalPhase ? (
               <>
-                <button onClick={randomizePoolMatches}>
+                {/* <button onClick={randomizePoolMatches}>
                   Randomize PoolMatches
-                </button>
+                </button> */}
                 <PoolMatchesGSContainer
                   updateGSPoolMatch={updateGSPoolMatch}
                   GSsPoolMatches={GSsPoolMatches}

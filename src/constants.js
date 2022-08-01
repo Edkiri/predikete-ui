@@ -1,2 +1,2 @@
-// export const PREDIKETE_API = "https://predikete-api.herokuapp.com";
-export const PREDIKETE_API = "http://localhost:3000";
+export const PREDIKETE_API = "https://predikete-api.herokuapp.com";
+// export const PREDIKETE_API = "http://localhost:3000";
