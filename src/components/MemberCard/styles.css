@@ -1,0 +1,32 @@
+.MemberCard {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #73768c;
+}
+.MemberCard:last-child {
+  border-bottom: none;
+}
+.MemberCard img {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0px 12px;
+}
+.MemberCardLeft {
+  display: flex;
+  justify-self: flex-start;
+}
+.MemberCardLeft .Position {
+  font-size: 14px;
+}
+.MemberCardLeft span {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+.MemberCard .MemberPoints {
+  font-size: 14px;
+}

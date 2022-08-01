@@ -1,0 +1,76 @@
+.UpdateProfileContainer {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFF;
+  margin-top: 12px;
+}
+.UpdateProfileContainer .UpdateProfileForm .FormItem {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 16px;
+}
+
+.UpdateProfileContainer .UpdateProfileForm {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  max-width: 450px;
+  padding: 24px;
+  border-radius: 8px;
+  background-color: var(--color-dark);
+}
+.UpdateProfileContainer .UpdateProfileForm .CurrentAvatarContainer {
+  width: 90%;
+  max-width: 100px;
+  min-width: 100px;
+  height: 100%;
+  margin: 16px auto;
+} 
+.UpdateProfileContainer .UpdateProfileForm .CurrentAvatar {
+  width: 100%;
+  max-width: 100px;
+  max-height: 100px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.UpdateProfileContainer .UpdateProfileForm label {
+  padding-bottom: 4px;
+  color: grey;
+}
+.UpdateProfileContainer .UpdateProfileForm button {
+  background-color: var(--color-orange);
+  color: white;
+  font-size: 20px;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  font-weight: 700;
+  margin-top: 24px;
+  cursor: pointer;
+}
+.UpdateProfileContainer .UpdateProfileForm #avatar {
+  display: none;
+}
+.UpdateProfileContainer .UpdateProfileForm .UploadButton span {
+  padding-left: 8px;
+}
+.UpdateProfileContainer .UpdateProfileForm .UploadButton {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  width: fit-content;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: green;
+  cursor: pointer;
+  margin-bottom: 16px;
+}

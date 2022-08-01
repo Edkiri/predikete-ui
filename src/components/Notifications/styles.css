@@ -1,0 +1,64 @@
+.NotificationsContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+.NotificationsContainer a {
+  text-decoration: none;
+}
+.BellContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+}
+.NotificationsContainer .circle {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: #FF4842;
+  position: absolute;
+  top: 6px;
+  right: 4px;
+}
+.NotificationsContainer .NotificationBell {
+  width: 18px;
+  height: 18px;
+}
+.NotificationsContainer .NotificationsList {
+  position: absolute;
+  top: 40px;
+  right: -25px;
+  width: 300px;
+  background-color: #FFF;
+  border-radius: 6px;
+  padding: 8px;
+}
+.NotificationsContainer .NotificationsList .TopTriangle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #FFF;
+  top: -10px;
+  right: 30px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+.NotificationsList .Notification {
+  padding: 16px 8px;
+  text-decoration: none;
+  color: var(--color-medium);
+}
+.NotificationsContainer .NotificationsList a .Notification:hover {
+  background-color: lightgray;
+}
+.NotificationsContainer .NotificationsList p {
+  font-size: 15px;
+}
+.NotificationsContainer .NotificationsList small {
+  color: var(--color-medium);
+}

@@ -1,0 +1,13 @@
+.PoolMatchDetailContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 550px;
+}
+.PoolMatchDetailContainer h2 {
+  color: #FFF;
+  margin-bottom: 24px;
+  text-align: center;
+}

@@ -1,0 +1,59 @@
+.HeroContainer {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 48px;
+}
+.HeroContainer h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 28px;
+  padding: 6px;
+}
+.HeroContainer h1 strong {
+  border-bottom: 3px solid var(--color-orange);
+}
+.LogoImage {
+  object-fit: cover;
+  width: 90px;
+  margin: 6px;
+}
+.HeroImage {
+  position: absolute;
+  object-fit: cover;
+  width: 100vw;
+  height: 800px;
+  left: -4px;
+  z-index: -1;
+  opacity: .2;
+}
+.ForFree {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+.ForFree span {
+  color: var(--color-orange)
+}
+.HeroSubtitle {
+  text-align: center;
+  font-size: 18px;
+  padding: 0px 20px;
+  max-width: 365px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.StartButton {
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFF;
+  background-color: var(--color-orange);
+  border: none;
+  cursor: pointer;
+  margin: 30px auto;
+  padding: 8px;
+  border-radius: 5px;
+  display: block;
+}

@@ -1,0 +1,27 @@
+.TeamGroupStatsRow {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.TeamGroupStatsRow span {
+  font-size: 14px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-medium);
+  padding: 12px 0px;
+}
+.TeamGroupStatsRow span img {
+  width: 25px;
+  padding-right: 4px;
+  max-height: 16px;
+}
+.TeamGroupStatsRow span:nth-child(1) {
+  width: 120px;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.TeamGroupStatsRow .TeamName {
+  font-size: 14px;
+}

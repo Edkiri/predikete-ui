@@ -1,0 +1,49 @@
+.GroupContainerHeaderLayout {
+  width: 100%;
+  max-width: 450px;
+  background-color: var(--color-light);
+  border-radius: 4px;
+  padding: 12px;
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+.GroupContainerHeader {
+  display: flex;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.GroupContainerHeader .HeaderRight {
+  display: flex;
+  flex-direction: column;
+  padding-left: 12px;
+  width: 100%;
+}
+.GroupContainerHeader .HeaderRight p {
+  text-align: start;
+  width: 100%;
+  padding-top: 4px;
+  padding-right: 50px;
+  font-size: 14px;
+  color: lightgrey;
+}
+.GroupContainerHeader .TitleContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.GroupContainerHeader img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 25%;
+}
+
+@media screen and (max-width: 500px) {
+  .GroupContainer .HeaderRight h3 {
+    font-size: 16px;
+  }
+  .GroupContainer .HeaderRight p {
+    font-size: 14px;
+  }
+}

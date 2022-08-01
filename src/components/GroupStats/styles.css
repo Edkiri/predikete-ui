@@ -1,0 +1,30 @@
+.GroupStatsContainer {
+  display: flex;
+  flex-direction: column;
+  color: #FFF;
+  margin: 20px 0px;
+  width: 100%;
+  background-color: var(--color-dark);
+  padding: 12px;
+  border-radius: 4px;
+}
+.HeaderGroupStatsRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.HeaderGroupStatsRow span {
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  width: 30px;
+  background-color: var(--color-medium);
+  padding: 12px 0px;
+  margin: 1px 0px;
+}
+.HeaderGroupStatsRow span:nth-child(1) {
+  width: 120px;
+  justify-content: flex-start;
+  background-color: transparent;
+}

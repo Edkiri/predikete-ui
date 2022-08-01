@@ -1,0 +1,14 @@
+.PoolMatchCardContainer p {
+  text-align: center;
+  padding-bottom: 12px;
+  font-size: 13px;
+}
+.ResultContainer {
+  display: flex;
+  align-items: center;
+}
+.ResultContainer .Penals {
+  font-size: 12px;
+  margin-right: 8px;
+  line-height: 14px;
+}

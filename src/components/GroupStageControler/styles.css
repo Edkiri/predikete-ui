@@ -1,0 +1,75 @@
+.GroupStageContainer {
+  display: flex;
+  flex-direction: column;
+}
+.GroupStageContainer .ButtonsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.GroupStageControlerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-dark);
+  padding: 8px;
+  border-radius: 4px;
+}
+.GroupStageControlerContainer h5 {
+  color: white;
+  padding-bottom: 8px;
+}
+
+.GroupStageControlerContainer .ButtonsContainer {
+  display: flex;
+}
+.GroupStageControlerContainer .GroupButton {
+  border: none;
+  background-color: var(--color-light);
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 700;
+  width: 25px;
+  height: 25px;
+  margin: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+.GroupStageControlerContainer .GroupButton:hover {
+  cursor: pointer;
+}
+.GroupStageControlerContainer .GroupButton.selected {
+  background-color: var(--color-orange);
+}
+.GroupStageControlerContainer .GroupButtonContainer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.FinalPhaseButton {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  background-color: var(--color-dark);
+  border: 1px solid var(--color-medium);
+  color: #FFF;
+  border-radius: 2px;
+  margin: 16px 0px;
+}
+.FinalPhaseButton.completed {
+  background-color: var(--color-light);
+  font-weight: 700;
+}
+.FinalPhaseButton.selected {
+  background-color: var(--color-orange);
+}
+.FinalPhaseButton .ArrowIcon:not(.Back) {
+  transform: rotate(180deg);
+}
+.GroupStageControlerContainer .FinalPhaseButton:hover {
+  cursor: pointer;
+}

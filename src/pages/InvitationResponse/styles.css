@@ -1,0 +1,64 @@
+.InvitationResponse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.InvitationResponse .InvitationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-dark);
+  padding: 8px 12px;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 400px;
+}
+.InvitationResponse .InvitationContainer img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+.InvitationResponse .InvitationContainer p {
+  text-align: center;
+  margin-bottom: 20px;
+  max-width: 320px;
+  color: lightgrey;
+  font-size: 15px;
+}
+.InvitationResponse .InvitationContainer p span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFF;
+}
+
+.InvitationResponse .ButtonsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 250px;
+  margin: 24px auto;
+}
+.InvitationResponse .ButtonsContainer .CancelBtn {
+  color: #FFF;
+  background-color: var(--color-light);
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  border-radius: 2px;
+  width: 90px;
+  height: 30px;
+  cursor: pointer;
+}
+.InvitationResponse .ButtonsContainer .AcceptBtn {
+  color: #FFF;
+  background-color: var(--color-orange);
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  border-radius: 2px;
+  width: 90px;
+  height: 30px;
+  cursor: pointer;
+}

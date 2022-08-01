@@ -1,0 +1,36 @@
+.SearchGroups {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.SearchGroups h2 { 
+  margin-top: 8px;
+  display: inline-block;
+}
+.SearchGroups .SearchInputContainer {
+  margin: 24px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background-color: var(--color-dark);
+  border-radius: 25px;
+}
+.SearchGroups .SearchInput {
+  background-color: transparent;
+  outline-style: none;
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+}
+.SearchGroups .SearchIcon {
+  width: 20px;
+  height: 20px;
+}
+.SearchGroups .errorMessage {
+  text-align: center;
+  width: 100%;
+  padding: 0px 12px;
+  max-width: 250px;
+  color: var(--color-error);
+}

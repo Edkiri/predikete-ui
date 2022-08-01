@@ -1,0 +1,77 @@
+.NewGroupContainer {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NewGroupForm {
+  background-color: var(--color-dark);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding: 12px;
+  color: #FFF;
+}
+.NewGroupForm .NewGroupItem {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px 16px 20px;
+}
+
+.NewGroupForm .NewGroupItem label:not(:last-child) {
+  padding-bottom: 6px;
+  color: grey;
+} 
+.NewGroupForm .PictureContainer {
+  width: 75px;
+  height: 75px;
+  margin: 12px auto;
+}
+.NewGroupForm .PictureContainer img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25%;
+  object-fit: cover;
+}
+.NewGroupForm .NewGroupItem input {
+  color: black;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: none;
+  font-size: 15px;
+}
+.NewGroupForm button {
+  background-color: var(--color-orange);
+  color: white;
+  font-size: 18px;
+  border: none;
+  padding: 6px;
+  border-radius: 4px;
+  font-weight: 700;
+  margin-top: 16px;
+  cursor: pointer;
+}
+.NewGroupForm #picture {
+  display: none;
+}
+.NewGroupForm .UploadButton span {
+  padding-left: 8px;
+}
+.NewGroupForm .UploadButton {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  width: fit-content;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px;
+  border-radius: 4px;
+  background-color: green;
+  cursor: pointer;
+}

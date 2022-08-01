@@ -1,0 +1,47 @@
+.InviteUserContainer {
+  width: 100%;
+  margin: 0 auto;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.InviteUserContainer h2 {
+  margin-bottom: 24px;
+}
+.InviteUserContainer .InviteUserForm {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  width: 100%;
+  min-width: 320px;
+  max-width: 400px;
+  background-color: var(--color-dark);
+  border-radius: 4px;
+}
+.InviteUserContainer .InviteUserForm .FormItem {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 16px;
+}
+.InviteUserContainer .InviteUserForm .FormItem input {
+  padding: 6px 16px;
+  font-size: 15px;
+  border-radius: 4px;
+  outline: none;
+}
+.InviteUserContainer .InviteUserForm label {
+  padding-bottom: 4px;
+  color: grey;
+}
+.InviteUserContainer .InviteUserForm button {
+  background-color: var(--color-orange);
+  color: white;
+  font-size: 20px;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  font-weight: 700;
+  margin-top: 36px;
+  cursor: pointer;
+}

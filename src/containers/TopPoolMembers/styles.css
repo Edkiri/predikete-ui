@@ -1,0 +1,32 @@
+.MemberList {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-dark);
+  width: 265px;
+  border-radius: 12px;
+  margin: 24px auto;
+} 
+.MemberList h5 {
+  text-align: center;
+  font-size: 15px;
+  padding: 8px;
+  background-color: var(--color-light);
+  border-radius: 12px 12px 0px 0px;
+}
+.MemberList .SeeAllLink {
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 6px;
+  padding-right: 8px;
+  padding-bottom: 12px;
+  text-decoration: none;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.MemberList .SeeAllLink .SeeAllArrow {
+  transform: rotate(-90deg);
+  margin-left: 8px;
+}

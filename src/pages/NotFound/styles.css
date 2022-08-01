@@ -1,0 +1,16 @@
+.NotFound {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  color: #FFF;
+}
+.NotFound p {
+  font-size: 18px;
+}
+.NotFound h2 {
+  font-size: 36px;
+  margin: 12px 0px;
+}

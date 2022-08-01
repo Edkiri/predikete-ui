@@ -1,0 +1,31 @@
+.PaginationContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4px 8px;
+  margin-top: 12px;
+  position: relative;
+}
+.PaginationContainer .Previus {
+  transform: rotate(180deg);
+  position: absolute;
+  left: -20px;
+}
+.PaginationContainer .Next {
+  position: absolute;
+  right: -20px;
+}
+.PaginationContainer .Previus,
+.PaginationContainer .Next {
+  cursor: pointer;
+}
+.PaginationContainer .ControlButton {
+  padding: 2px 5px;
+  margin: 0px 3px;
+  border: 1px solid var(--color-light);
+  background-color: var(--color-dark);
+  color: #FFF;
+}
+.PaginationContainer .ControlButton.active {
+  background-color: var(--color-orange);
+}

@@ -1,0 +1,32 @@
+.ModalMessageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  position: fixed;
+  top: 50px;
+  right: calc(50% - 125px);
+  width: 250px;
+  padding: 12px 18px;
+  background-color: lightgray;
+  border-radius: 4px;
+
+}
+.ModalMessageContainer .ModalTitle {
+  padding-bottom: 12px;
+  color: #000;
+} 
+.ModalMessageContainer .ModalMessage {
+  text-align: center;
+  padding-bottom: 24px;
+  font-size: 15px;
+  color: #000;
+}
+.ModalMessageContainer button {
+  border: 1px solid var(--color-dark);
+  padding: 4px 12px;
+  border-radius: 4px;
+  background-color: var(--color-orange);
+
+}

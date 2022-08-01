@@ -1,0 +1,17 @@
+.PFPoolMatches {
+  width: 100%;
+}
+.FPPoolMatchesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+.FPPoolMatchesContainer > div {
+  margin: 8px 0px;
+}
+.PFPoolMatches h4 {
+  text-align: center;
+  color: #FFF;
+  padding: 12px 0px;
+}

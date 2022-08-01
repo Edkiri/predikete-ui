@@ -1,0 +1,87 @@
+.UserHeaderContainer {
+  display: flex;
+  align-items: center;
+}
+.TopUserHeaderContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 4px;
+  cursor: pointer;
+}
+.TopUserHeaderContainer .ToggleArrow {
+  width: 10px;
+  height: 10px;
+  margin-top: 3px;
+  margin-right: 3px;
+  transition: all .2s;
+}
+.TopUserHeaderContainer .ToggleArrow.toggled {
+  transform: rotate(180deg);
+}
+.TopUserHeaderContainer span {
+  padding: 0px 4px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.TopUserHeaderContainer .UserAvatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  object-fit: cover;
+}
+.TopUserHeaderContainer button {
+  font-size: 10px;
+}
+.ToggleContainer {
+  position: absolute;
+  top: 55px;
+  right: 70px;
+  background-color: var(--color-dark);
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  opacity: 0;
+  transition: all .22s;
+  z-index: -1;
+}
+.ToggleContainer.toggled {
+  opacity: 1;
+  z-index: 1;
+}
+.ToggleContainer .UserFunctionsList {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.UserHeaderContainer .ToggleContainer .UserFunctionsList a {
+  color: white;
+  text-decoration: none;
+}
+.ToggleContainer .UserFunctionsList #logout {
+  margin-top: 30px;
+  font-size: 12px;
+  color: var(--color-error);
+  background-color: transparent;
+  border: none;
+  text-align: start;
+  cursor: pointer;
+}
+.UserHeaderContainer .LoginButton {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  background-color: var(--color-orange);
+  border: none;
+  border-radius: 5px;
+  margin-right: 16px;
+}
+.UserHeaderContainer .DarkLayout {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,.7);
+}

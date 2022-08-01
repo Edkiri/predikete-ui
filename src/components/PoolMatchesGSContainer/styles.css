@@ -1,0 +1,25 @@
+.GroupStageContent {
+  width: 100%;
+  max-width: 450px;
+}
+.GroupStageContent h4 {
+  color: #FFF;
+  text-align: center;
+  margin: 24px 0;
+}
+.PoolMatchesContainer {
+  margin-top: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.GroupStageContent > p {
+  text-align: center;
+  color: #FFF;
+  font-weight: 700;
+  margin: 12px
+  
+}
+.GroupStageContent p:nth-child(1) {
+  margin-top: 24px;
+}

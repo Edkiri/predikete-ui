@@ -1,0 +1,15 @@
+.Layout {
+  width: 100%;
+  max-width: 550px;
+  padding: 4px;
+  overflow: hidden;
+  margin: 0 auto;
+  color: #FFF;
+  min-height: calc(100vh - 60px);
+  margin-bottom: -100px;
+}
+.Layout:after {
+  content: "";
+  display: block;
+  height: 100px;
+}

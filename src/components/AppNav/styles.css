@@ -1,0 +1,26 @@
+.Menu {
+  position: absolute;
+  top: 60px;
+  padding: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: var(--color-dark);
+}
+.Menu ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.Menu ul a {
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--color-light);
+  color: #FFF;
+  text-decoration: none;
+}
+.Menu ul a:hover {
+  opacity: 0.5;
+}
