@@ -10,6 +10,7 @@ import { useGetInvitation } from "@hooks/useGetInvitation";
 import { useProfilePic } from "@hooks/useProfilePic";
 
 import "./styles.css";
+import { PREDIKETE_API } from "../../constants";
 
 export const InvitationResponse = () => {
   const { jwt, removeNotification } = useContext(Context);
@@ -23,7 +24,7 @@ export const InvitationResponse = () => {
   const handleClick = (accept) => {
     axios
       .post(
-        `http://localhost:3000/groups/${invitation.group.id}/invitations/${invitation.id}`,
+        `${PREDIKETE_API}/groups/${invitation.group.id}/invitations/${invitation.id}`,
         { accept },
         {
           headers: {

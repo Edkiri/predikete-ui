@@ -1,10 +1,11 @@
 import axios from "axios";
+import { PREDIKETE_API } from "../constants";
 
 export const putPMatchesList = async (pool, jwt, PMatchesList) => {
   const groupId = pool.membership.group.id;
   return axios
     .put(
-      `http://localhost:3000/groups/${groupId}/pools/${pool.id}/pool-matches`,
+      `${PREDIKETE_API}/groups/${groupId}/pools/${pool.id}/pool-matches`,
       { poolMatches: PMatchesList },
       {
         headers: {

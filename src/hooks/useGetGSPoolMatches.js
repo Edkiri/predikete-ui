@@ -1,8 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { Context } from "@context/AppContext";
 import axios from "axios";
-
-import { useLocalStorage } from "@hooks/useLocalStorage";
 import { PREDIKETE_API } from "../constants";
 
 export const useGetGSPoolMatches = (
