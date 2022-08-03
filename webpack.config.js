@@ -5,9 +5,9 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
   entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, "/"),
+    path: path.resolve(__dirname, "build"),
     filename: "bundle.js",
-    publicPath: "/",
+    library: 'webpackGhPages',
   },
   mode: "development",
   resolve: {
