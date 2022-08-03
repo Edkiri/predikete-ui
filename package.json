@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
-  "homepage": "http://Edkiri.github.io/predikete-ui",
+  "homepage": "https://Edkiri.github.io/predikete-ui",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
