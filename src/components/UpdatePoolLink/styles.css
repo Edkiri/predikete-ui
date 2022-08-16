@@ -12,7 +12,7 @@
 .IncompletedPoolContainer .UpdatePoolLink {
   background-color: var(--color-orange);
   color: white;
-  font-size: 18px;
+  font-size: var(--font-size-large);
   border: none;
   padding: 4px 8px;
   border-radius: 4px;

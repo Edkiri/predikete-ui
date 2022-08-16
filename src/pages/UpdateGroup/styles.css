@@ -37,7 +37,7 @@
   padding: 8px;
   border-radius: 4px;
   border: none;
-  font-size: 14px;
+  font-size: var(--font-size-medium);
   outline: none;
 }
 .UpdateGroupContainer .UpdateGroupForm label {
@@ -47,7 +47,7 @@
 .UpdateGroupContainer .UpdateGroupForm button {
   background-color: var(--color-orange);
   color: white;
-  font-size: 18px;
+  font-size: var(--font-size-large);
   border: none;
   padding: 8px;
   border-radius: 4px;
@@ -67,7 +67,7 @@
 }
 .UpdateGroupContainer .UpdateGroupForm .UploadButton {
   color: #FFF;
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 500;
   text-align: center;
   width: fit-content;

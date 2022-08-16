@@ -57,7 +57,7 @@ export const useGetPMatchesDetails = (pool, poolMatchId) => {
       }
       const teamsImagesPromises = teams.map((team) => {
         return axios
-          .get(`http://localhost:3000/teams/images/${team.image}`, {
+          .get(`${PREDIKETE_API}/teams/images/${team.image}`, {
             responseType: "blob",
           })
           .then((res) => {

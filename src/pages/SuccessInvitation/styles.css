@@ -10,7 +10,7 @@
 .SuccessInvitation h4 {
   color: #FFF;
   text-align: center;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 .SuccessInvitation h4 span {
   border-bottom: 1px solid var(--color-orange);
@@ -18,7 +18,7 @@
 .SuccessInvitation button {
   background-color: var(--color-orange);
   color: white;
-  font-size: 18px;
+  font-size: var(--font-size-large);
   border: none;
   padding: 4px 12px;
   border-radius: 4px;

@@ -5,16 +5,16 @@
   background-color: var(--color-dark);
   border-radius: 5px;
   color: #FFF;
-  font-size: 14px;
+  font-size: var(--font-size-medium);
   cursor: pointer;
 }
 .PoolMatchCardContainer .MatchDate {
-  font-size: 13px;
+  font-size: var(--font-size-medium);
   padding-top: 20px;
   padding-bottom: 0px;
 }
 .PoolMatchCardContainer .Points {
-  font-size: 15px;
+  font-size: var(--font-size-medium);
   padding-top: 20px;
   padding-bottom: 0;
   font-weight: 700;

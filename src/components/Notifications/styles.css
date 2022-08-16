@@ -57,7 +57,7 @@
   background-color: lightgray;
 }
 .NotificationsContainer .NotificationsList p {
-  font-size: 15px;
+  font-size: var(--font-size-medium);
 }
 .NotificationsContainer .NotificationsList small {
   color: var(--color-medium);

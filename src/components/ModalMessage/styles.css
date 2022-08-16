@@ -20,7 +20,7 @@
 .ModalMessageContainer .ModalMessage {
   text-align: center;
   padding-bottom: 24px;
-  font-size: 15px;
+  font-size: var(--font-size-medium);
   color: #000;
 }
 .ModalMessageContainer button {

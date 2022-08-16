@@ -25,10 +25,10 @@
   margin-bottom: 20px;
   max-width: 320px;
   color: lightgrey;
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 .InvitationResponse .InvitationContainer p span {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 700;
   color: #FFF;
 }
@@ -44,7 +44,7 @@
   color: #FFF;
   background-color: var(--color-light);
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1.6rem;
   border: none;
   border-radius: 2px;
   width: 90px;
@@ -55,7 +55,7 @@
   color: #FFF;
   background-color: var(--color-orange);
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1.6rem;
   border: none;
   border-radius: 2px;
   width: 90px;

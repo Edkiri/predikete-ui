@@ -21,7 +21,7 @@
 }
 .TopUserHeaderContainer span {
   padding: 0px 4px;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 500;
 }
 .TopUserHeaderContainer .UserAvatar {
@@ -32,7 +32,7 @@
   object-fit: cover;
 }
 .TopUserHeaderContainer button {
-  font-size: 10px;
+  font-size: var(--font-size-small);
 }
 .ToggleContainer {
   position: absolute;
@@ -41,7 +41,7 @@
   background-color: var(--color-dark);
   padding: 20px;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: var(--font-size-medium);
   opacity: 0;
   transition: all .22s;
   z-index: -1;
@@ -61,7 +61,7 @@
 }
 .ToggleContainer .UserFunctionsList #logout {
   margin-top: 30px;
-  font-size: 12px;
+  font-size: var(--font-size-small);
   color: var(--color-error);
   background-color: transparent;
   border: none;

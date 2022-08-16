@@ -6,20 +6,26 @@
   --color-light: #334756;
   --color-orange: #FF4C29;
   --color-error: rgb(230, 95, 95);
-}
-html, body {
-  min-height: 100vh;
+  --font-size-small: 1.2rem;
+  --font-size-medium: 1.4rem;
+  --font-size-large: 1.8rem;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  font-size: 62.5%;
+  font-family: 'Ubuntu', sans-serif;
+}
+html, body {
+  min-height: 100vh;
+}
 body {
   background: var(--color-medium);
   margin: 0 auto;
   width: 100%;
-  font-family: 'Ubuntu', sans-serif;
   position: relative;
 }
 h1,

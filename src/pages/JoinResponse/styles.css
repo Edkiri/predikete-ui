@@ -28,7 +28,7 @@
   max-width: 320px;
 }
 .JoinResponse .RequestContainer p span {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 700;
 }
 
@@ -43,7 +43,7 @@
   color: #FFF;
   background-color: var(--color-light);
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1.6rem;
   border: none;
   border-radius: 2px;
   width: 90px;
@@ -54,7 +54,7 @@
   color: #FFF;
   background-color: var(--color-orange);
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1.6rem;
   border: none;
   border-radius: 2px;
   width: 90px;

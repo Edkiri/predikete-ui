@@ -27,7 +27,7 @@
   background-color: transparent;
   cursor: pointer;
   border: none;
-  font-size: 24px;
+  font-size: 24rem;
   align-self: flex-end;
   padding: 8px;
   margin-bottom: 24px;
@@ -43,7 +43,7 @@
 .ModalContainer .TeamContent span {
   display: flex;
   align-items: center;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 .ModalContainer .TeamContent img {
   width: 45px;
@@ -59,12 +59,12 @@
   width: 25px;
   height: 25px;
   margin-right: 12px;
-  font-size: 13px;
+  font-size: var(--font-size-medium);
 }
 .UpdatePoolMatchModal .updateErrorMessage {
   text-align: center;
   width: 100%;
-  font-size: 14px;
+  font-size: var(--font-size-medium);
   color: var(--color-error);
 }
 .UpdatePoolMatchModal .ButtonsContainer {

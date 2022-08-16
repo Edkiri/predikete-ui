@@ -38,7 +38,7 @@
   padding-bottom: 8px;
 }
 .GroupAbout {
-  font-size: 14px;
+  font-size: var(--font-size-medium);
   color: #FFF;
 }
 .GroupCardFooter {
@@ -70,7 +70,7 @@
 
 .JoinButton {
   align-self: center;
-  font-size: 16px;
+  font-size: var(--font-size-large);
   padding: 4px 12px;
   border: none;
   color: #FFF;

@@ -5,7 +5,7 @@
   align-items: center;
 }
 .TeamGroupStatsRow span {
-  font-size: 14px;
+  font-size: var(--font-size-medium);
   width: 30px;
   display: flex;
   justify-content: center;
@@ -23,5 +23,5 @@
   background-color: transparent;
 }
 .TeamGroupStatsRow .TeamName {
-  font-size: 14px;
+  font-size: var(--font-size-medium);
 }

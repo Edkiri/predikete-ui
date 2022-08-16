@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import { Layout } from "@containers/Layout";
 
@@ -29,10 +29,11 @@ import "@styles/global.css";
 
 export const App = () => {
   return (
-    <BrowserRouter>
+    <Router>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/predikete-ui" element={<Home />} />
           <Route path="/rules" element={<Rules />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
@@ -152,6 +153,6 @@ export const App = () => {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
-    </BrowserRouter>
+    </Router>
   );
 };

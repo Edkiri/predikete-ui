@@ -14,13 +14,13 @@
 }
 
 .GroupsContainer .NewGroupLink {
-  font-size: 18px;
+  font-size: var(--font-size-large);
   font-weight: 700;
   margin-top: 12px;
   color: rgb(10, 146, 183)
 }
 .GroupsContainer .SearchGroupLink {
-  font-size: 18px;
+  font-size: var(--font-size-large);
   font-weight: 700;
   margin-top: 12px;
   color: rgb(10, 146, 183)

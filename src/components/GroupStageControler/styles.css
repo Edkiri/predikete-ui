@@ -27,7 +27,7 @@
   border: none;
   background-color: var(--color-light);
   color: #FFF;
-  font-size: 16px;
+  font-size: var(--font-size-medium);
   font-weight: 700;
   width: 25px;
   height: 25px;

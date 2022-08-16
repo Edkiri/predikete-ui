@@ -5,7 +5,7 @@
   padding: 8px 0px;
 }
 .RulesContainer p {
-  font-size: 18px;
+  font-size: var(--font-size-large);
   text-align: center;
   margin: 4px auto;
 }
@@ -17,7 +17,7 @@
 }
 .RulesContainer > div h4 {
   margin: 16px;
-  font-size: 18px;
+  font-size: var(--font-size-large);
 }
 .RulesContainer > div ul {
   list-style: none;
@@ -25,7 +25,7 @@
 .RulesContainer > div ul li {
   padding-left: 15px;
   padding-bottom: 16px;
-  font-size: 15px;
+  font-size: var(--font-size-medium);
   color: lightgray;
 }
 .RulesContainer > div ul li::before {

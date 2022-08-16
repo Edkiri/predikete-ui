@@ -24,7 +24,7 @@
   width: 100%;
   padding-top: 4px;
   padding-right: 50px;
-  font-size: 14px;
+  font-size: var(--font-size-medium);
   color: lightgrey;
 }
 .GroupContainerHeader .TitleContainer {
@@ -41,9 +41,9 @@
 
 @media screen and (max-width: 500px) {
   .GroupContainer .HeaderRight h3 {
-    font-size: 16px;
+    font-size: var(--font-size-large);
   }
   .GroupContainer .HeaderRight p {
-    font-size: 14px;
+    font-size: var(--font-size-medium);
   }
 }
