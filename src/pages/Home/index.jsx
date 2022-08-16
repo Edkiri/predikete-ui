@@ -27,8 +27,9 @@ export const Home = () => {
         Create or join a group and start your predictions
       </p>
       <button onClick={handleClick} className="StartButton">
-        Get Start!
+        Get Started!
       </button>
+      <div className="HomeBgImage"></div>
       <div className="overlay"></div>
     </div>
   );

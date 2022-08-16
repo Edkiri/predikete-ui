@@ -33,4 +33,5 @@
   padding: 0px 12px;
   max-width: 250px;
   color: var(--color-error);
+  font-size: var(--font-size-medium);
 }

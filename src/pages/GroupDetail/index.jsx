@@ -23,8 +23,8 @@ export const GroupDetail = () => {
       ) : (
         <>
           <GroupHeader group={pool.membership.group} />
-          <UpdatePoolLink pool={pool} />
           <TopPoolMembers group={pool.membership.group} pool={pool} />
+          <UpdatePoolLink pool={pool} />
           <div className="PoolContent">
             <PreviusMatch pool={pool} />
             <NextMatch pool={pool} />

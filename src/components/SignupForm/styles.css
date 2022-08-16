@@ -20,6 +20,7 @@
 .SignupForm .FormItem label {
   padding-bottom: 6px;
   color: grey;
+  font-size: var(--font-size-medium);
 }
 .SignupForm .FormItem input {
   color: black;

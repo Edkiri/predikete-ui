@@ -6,8 +6,8 @@
   --color-light: #334756;
   --color-orange: #FF4C29;
   --color-error: rgb(230, 95, 95);
-  --font-size-small: 1.2rem;
-  --font-size-medium: 1.4rem;
+  --font-size-small: 1.4rem;
+  --font-size-medium: 1.6rem;
   --font-size-large: 1.8rem;
 }
 * {
@@ -41,6 +41,7 @@ h2 {
   border-bottom: 3px solid var(--color-orange);
   margin: 0 auto;
   margin-bottom: 12px;
+  font-size: 2rem;
 }
 #app {
   overflow-x: hidden;

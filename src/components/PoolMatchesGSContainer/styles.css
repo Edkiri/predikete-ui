@@ -17,7 +17,8 @@
   text-align: center;
   color: #FFF;
   font-weight: 700;
-  margin: 12px
+  margin: 12px;
+  font-size: 1.6rem;
   
 }
 .GroupStageContent p:nth-child(1) {

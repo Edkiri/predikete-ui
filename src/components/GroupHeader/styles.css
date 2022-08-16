@@ -32,6 +32,9 @@
   justify-content: space-between;
   width: 100%;
 }
+.GroupContainerHeader .TitleContainer h4 {
+  font-size: var(--font-size-large);
+} 
 .GroupContainerHeader img {
   width: 70px;
   height: 70px;

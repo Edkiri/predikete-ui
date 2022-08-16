@@ -43,6 +43,7 @@
 .UpdateGroupContainer .UpdateGroupForm label {
   padding-bottom: 4px;
   color: grey;
+  font-size: var(--font-size-medium);
 }
 .UpdateGroupContainer .UpdateGroupForm button {
   background-color: var(--color-orange);

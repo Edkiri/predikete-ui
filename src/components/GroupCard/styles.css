@@ -36,6 +36,7 @@
 .GroupTitle {
   color: #fff;
   padding-bottom: 8px;
+  font-size: var(--font-size-large);
 }
 .GroupAbout {
   font-size: var(--font-size-medium);

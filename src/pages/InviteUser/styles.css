@@ -33,6 +33,7 @@
 .InviteUserContainer .InviteUserForm label {
   padding-bottom: 4px;
   color: grey;
+  font-size: var(--font-size-medium);
 }
 .InviteUserContainer .InviteUserForm button {
   background-color: var(--color-orange);

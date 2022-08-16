@@ -1,15 +1,15 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState } from 'react';
 
-import { Context } from "@context/AppContext";
+import { Context } from '@context/AppContext';
 
-import { UserNav } from "@components/UserNav";
-import { AppNav } from "@components/AppNav";
+import { UserNav } from '@components/UserNav';
+import { AppNav } from '@components/AppNav';
 
-import { FaBars } from "react-icons/fa";
-import { FaTimes } from "react-icons/fa";
-import logo from "@assets/main-logo.png";
+import { FaBars } from 'react-icons/fa';
+import { FaTimes } from 'react-icons/fa';
+import logo from '@assets/main-logo.png';
 
-import "./styles.css";
+import './styles.css';
 
 export const Header = () => {
   const { user } = useContext(Context);
@@ -17,7 +17,9 @@ export const Header = () => {
 
   return (
     <header className="Header">
-      <img className="logo" src={logo} alt="" />
+      <a href="/">
+        <img className="logo" src={logo} alt="" />
+      </a>
       <div className="HeaderRight">
         {!displayedNav && <UserNav user={user} />}
         <div

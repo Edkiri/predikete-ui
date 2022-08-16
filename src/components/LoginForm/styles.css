@@ -20,6 +20,7 @@
 .LoginForm .FormItem label {
   padding-bottom: 6px;
   color: grey;
+  font-size: var(--font-size-medium);
 }
 .LoginForm .FormItem input {
   color: black;
@@ -55,4 +56,5 @@
   color: var(--color-error);
   text-align: center;
   margin-top: 20px;
+  font-size: var(--font-size-medium);
 }
