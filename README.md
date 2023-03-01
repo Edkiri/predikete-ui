@@ -22,9 +22,9 @@ Aplicación web para torneos de fútbol donde los usuarios pueden predecir el re
 * +10 puntos si acierta el sub-campeón del torneo.
 ---
 ## Tecnologías
-* [Predikete-api](https://github.com/Edkiri/predikete-api)
 * React
 * React Router Dom
 * React Icons
 * SpinJs
 * Axios
+* [Predikete-api](https://github.com/Edkiri/predikete-api)
