@@ -2,6 +2,9 @@
 
 Aplicación web para torneos de fútbol donde los usuarios pueden predecir el resultado de los partidos y competir con otros usuarios.
 
+* [Predikete-api](https://github.com/Edkiri/predikete-api)
+* [Predikete-ui](https://github.com/Edkiri/predikete-ui)
+
 ### El usuario puede:
 * Registrarse, iniciar y cerrar sesión.
 * Crear un grupo.
@@ -27,4 +30,3 @@ Aplicación web para torneos de fútbol donde los usuarios pueden predecir el re
 * React Icons
 * SpinJs
 * Axios
-* [Predikete-api](https://github.com/Edkiri/predikete-api)
